@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/learn?useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true
+    username: root
+    password: 050908
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#  mybatis:
+#    mapper-locations: com/example/sblearn/dao/Mapper.xml
+#    type-aliases-package: com.example.sblearn
+  mvc:
+    contentnegotiation:
+      favor-parameter: true #开启接收@Param参数format 指定数据格式
+      parameter-name: format

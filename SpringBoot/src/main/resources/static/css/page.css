@@ -1,0 +1,6 @@
+.img-limit {
+    max-height: 500px;
+    max-width: 500px;
+    width: auto;
+    height: auto;
+}
